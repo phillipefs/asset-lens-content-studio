@@ -1,0 +1,53 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Studio: Validate",
+      "type": "shell",
+      "command": "python",
+      "args": ["scripts/validate_studio.py"],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Studio: Smoke Render",
+      "type": "shell",
+      "command": "python",
+      "args": ["scripts/smoke_test.py"],
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Studio: Verify Post",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        ".agents/skills/asset-lens-post-studio/scripts/verify_output.py",
+        "${input:postPng}",
+        "${input:copyFile}",
+        "${input:renderConfig}"
+      ],
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "postPng",
+      "type": "promptString",
+      "description": "PNG final",
+      "default": "instagram/YYYY-MM-DD-slug/post.png"
+    },
+    {
+      "id": "copyFile",
+      "type": "promptString",
+      "description": "Copy final",
+      "default": "instagram/YYYY-MM-DD-slug/copy.md"
+    },
+    {
+      "id": "renderConfig",
+      "type": "promptString",
+      "description": "Config de render",
+      "default": "instagram/YYYY-MM-DD-slug/render.json"
+    }
+  ]
+}

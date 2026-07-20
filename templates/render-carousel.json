@@ -1,0 +1,41 @@
+{
+  "mode": "carousel",
+  "format": "feed_4x5",
+  "output_dir": "instagram/YYYY-MM-DD-slug-carrossel",
+  "watermark": "off",
+  "disclaimer": "Conteúdo informacional. Não é recomendação de investimento.",
+  "slides": [
+    {
+      "filename": "slide-01.png",
+      "eyebrow": "LEITURA QUANTITATIVA",
+      "headline_lines": [
+        {"text": "Uma pergunta", "color": "white"},
+        {"text": "que merece contexto.", "color": "cyan"}
+      ],
+      "visual": {
+        "type": "steps",
+        "items": [
+          {"icon": "search", "title": "Observe", "desc": "Comece pelo dado."},
+          {"icon": "clock", "title": "Compare", "desc": "Consulte o histórico."}
+        ]
+      },
+      "cta": "Deslize para continuar"
+    },
+    {
+      "filename": "slide-02.png",
+      "eyebrow": "CONTEXTO",
+      "headline_lines": [
+        {"text": "A leitura fica", "color": "white"},
+        {"text": "mais completa.", "color": "teal"}
+      ],
+      "visual": {
+        "type": "steps",
+        "items": [
+          {"icon": "layers", "title": "Camadas", "desc": "Macro, setor e ativo."},
+          {"icon": "shield-check", "title": "Autonomia", "desc": "A decisão continua sendo sua."}
+        ]
+      },
+      "cta": "Siga o Asset Lens"
+    }
+  ]
+}

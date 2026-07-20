@@ -1,0 +1,15 @@
+{
+  "chat.useAgentSkills": true,
+  "chat.useAgentsMdFile": true,
+  "chat.useClaudeMdFile": false,
+  "chat.useCustomizationsInParentRepositories": false,
+  "chat.agentSkillsLocations": {
+    ".agents/skills": true,
+    ".claude/skills": false,
+    ".github/skills": false,
+    "~/.copilot/skills": true,
+    "~/.agents/skills": true,
+    "~/.claude/skills": true
+  },
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe"
+}

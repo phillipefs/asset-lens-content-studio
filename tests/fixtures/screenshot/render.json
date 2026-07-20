@@ -1,0 +1,24 @@
+{
+  "mode": "post",
+  "format": "feed_4x5",
+  "output_dir": ".tmp/smoke/screenshot",
+  "filename": "post.png",
+  "eyebrow": "SMOKE TEST REAL",
+  "eyebrow_icon": "grid",
+  "headline_lines": [
+    {"text": "O mercado em", "color": "white"},
+    {"text": "uma leitura por zonas.", "color": "cyan"}
+  ],
+  "subtitle": "Fixture com screenshot real e datado do produto.",
+  "chips": [
+    {"icon": "layers", "text": "Visão macro"},
+    {"icon": "target", "text": "Zonas quantitativas"}
+  ],
+  "visual": {
+    "type": "screenshot",
+    "screenshot_path": "inputs/screenshots/2026-07-20-zonas-app.png"
+  },
+  "cta": "Acompanhe o Asset Lens",
+  "disclaimer": "Conteúdo informacional. Não é recomendação de investimento.",
+  "watermark": "off"
+}

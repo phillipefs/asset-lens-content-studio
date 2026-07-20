@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "project_name": "asset-lens-content-studio",
+  "canonical_skill": ".agents/skills/asset-lens-post-studio",
+  "claude_adapter": ".claude/skills/asset-lens-post-studio",
+  "output_dir": "instagram",
+  "screenshots_dir": "inputs/screenshots"
+}

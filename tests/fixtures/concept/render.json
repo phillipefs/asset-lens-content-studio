@@ -1,0 +1,26 @@
+{
+  "mode": "post",
+  "format": "feed_4x5",
+  "output_dir": ".tmp/smoke/concept",
+  "filename": "post.png",
+  "eyebrow": "SMOKE TEST",
+  "eyebrow_icon": "search",
+  "headline_lines": [
+    {"text": "Contexto muda", "color": "white"},
+    {"text": "a leitura.", "color": "cyan"}
+  ],
+  "subtitle": "Fixture conceitual para validar render, marca e compliance.",
+  "visual": {
+    "type": "steps",
+    "panel_title": "FLUXO INFORMACIONAL",
+    "items": [
+      {"icon": "search", "title": "Observe", "desc": "Leia o contexto atual.", "color": "cyan"},
+      {"icon": "clock", "title": "Compare", "desc": "Consulte o histórico.", "color": "teal"},
+      {"icon": "layers", "title": "Conecte", "desc": "Relacione macro, setor e ativo.", "color": "blue"},
+      {"icon": "shield-check", "title": "Contextualize", "desc": "A decisão permanece autônoma.", "color": "green"}
+    ]
+  },
+  "cta": "Acompanhe o Asset Lens",
+  "disclaimer": "Conteúdo informacional. Não é recomendação de investimento.",
+  "watermark": "auto"
+}

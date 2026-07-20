@@ -1,0 +1,10 @@
+interface:
+  display_name: "Asset Lens Post Studio"
+  short_description: "Cria e valida posts premium do Asset Lens"
+  icon_small: "./references/brand/logo_official.png"
+  icon_large: "./references/brand/logo_official.png"
+  brand_color: "#22D8F4"
+  default_prompt: "Crie uma publicação premium do Asset Lens e entregue PNG final e copy validada."
+
+policy:
+  allow_implicit_invocation: true

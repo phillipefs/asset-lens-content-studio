@@ -1,0 +1,24 @@
+{
+  "mode": "post",
+  "format": "feed_4x5",
+  "output_dir": "instagram/YYYY-MM-DD-slug",
+  "filename": "post.png",
+  "eyebrow": "LEITURA QUANTITATIVA",
+  "eyebrow_icon": "search",
+  "headline_lines": [
+    {"text": "Contexto antes", "color": "white"},
+    {"text": "da decisão.", "color": "cyan"}
+  ],
+  "subtitle": "Uma leitura informacional baseada em métricas históricas.",
+  "visual": {
+    "type": "steps",
+    "items": [
+      {"icon": "search", "title": "Observe", "desc": "Leia o contexto atual."},
+      {"icon": "clock", "title": "Compare", "desc": "Consulte o histórico."},
+      {"icon": "shield-check", "title": "Contextualize", "desc": "A decisão continua sendo sua."}
+    ]
+  },
+  "cta": "Acompanhe o Asset Lens",
+  "disclaimer": "Conteúdo informacional. Não é recomendação de investimento.",
+  "watermark": "auto"
+}

@@ -1,0 +1,17 @@
+# Python/runtime
+__pycache__/
+*.py[cod]
+.venv/
+.runtime/
+.tmp/
+
+# Editor and local agent state
+.claude/settings.local.json
+.DS_Store
+Thumbs.db
+
+# Generated publication artifacts. Keep copy.md and render.json versioned.
+instagram/**/post.png
+instagram/**/slide-*.png
+instagram/**/render.html
+instagram/**/render-*.html
