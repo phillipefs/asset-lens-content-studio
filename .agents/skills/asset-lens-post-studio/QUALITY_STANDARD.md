@@ -3,8 +3,7 @@
 ## Fonte de verdade
 
 `references/approved_examples/` (o **conjunto inteiro**) é a autoridade visual —
-analise todos, não só um. `benchmark_post_01.png` define **atmosfera, cor, fundo
-e acabamento**, mas **não** é o template de layout: os carrosséis aprovados
+analise todos, não só um. Os carrosséis aprovados
 mostram a variedade real (screenshot do produto grande, cards de feature
 numerados, tiles de KPI, tabelas/painéis reais). Em conflito com qualquer regra
 genérica, os exemplos aprovados vencem — exceto na marca: o nome é sempre

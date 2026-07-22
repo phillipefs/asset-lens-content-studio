@@ -46,9 +46,6 @@ fonte atual. Nunca transformar um snapshot em promessa permanente.
   aprovados (não só um). Cada um ensina um padrão diferente — analise o conjunto
   antes de escolher o layout.
 - Papel de cada referência:
-  - `benchmark_post_01.png` → **atmosfera, cor, fundo, acabamento** (o "clima"
-    premium navy). **Não** é o template obrigatório de layout — nem todo post é
-    um quadro com gráfico de linha.
   - `post-aprovado-drawdown.png` / `carrossel-aprovado-02-drawdown.png` →
     **screenshot real do produto grande e legível** + cards numerados.
   - `carrossel-aprovado-01-capa.png` → cards de feature numerados lado a lado.
